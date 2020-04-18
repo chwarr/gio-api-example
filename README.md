@@ -16,7 +16,7 @@ Ensure you have a copy of [.NET Core SDK 3.1][dotnet] or later installed.
 Clone this repository:
 
 ```cmd
-git clone http://github.com/chwarr/gio-api-example.git
+git clone https://github.com/chwarr/gio-api-example.git
 ```
 
 Run the example by giving it the email to login as and a new location for
