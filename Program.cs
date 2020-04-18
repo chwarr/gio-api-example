@@ -33,13 +33,7 @@ namespace Example.GroupsIo
             WriteIndented = true,
         };
 
-        private static readonly HttpClient _client = new HttpClient(
-            new HttpClientHandler()
-            {
-                // initialize a cookie container so that we record
-                // and continue to pass Groups.io's auth cookies.
-                CookieContainer = new CookieContainer()
-            });
+        private static readonly HttpClient _client = new HttpClient();
 
         static async Task Main(string[] args)
         {
