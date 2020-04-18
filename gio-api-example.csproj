@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<!--
+Copyright 2020, G.Christopher Warrington<c45207@mygcw.net>
+
+This software is released under the GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3. A copy of this license is included in the file LICENSE.
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Example.GroupsIo</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
